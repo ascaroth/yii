@@ -1,0 +1,9 @@
+<?php 
+'db'=>array(
+		'connectionString' => 'mysql:host=localhost;dbname=mibasededatos',
+		'emulatePrepare' => true,
+		'username' => 'usuario',
+		'password' => 'contrasenia',
+		'charset' => 'utf8',
+	),
+ ?>

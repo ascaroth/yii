@@ -1,0 +1,11 @@
+<?php 
+public function actionView($id)
+{
+	if (Yii::app()->user->checkAccess("adminFinanciero"))
+	{
+		echo 'HOLA';
+	} else {
+		echo 'ADIOS';
+	}
+}
+ ?>
